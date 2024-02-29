@@ -6,6 +6,11 @@ namespace GitDemoProject.Web.Controllers
 {
     public class HomeController : Controller
     {
+        public HomeController()
+        {
+            //this is a ctor
+        }
+
         public IActionResult Index()
         {
             return View();
